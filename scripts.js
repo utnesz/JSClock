@@ -1,0 +1,6 @@
+const hourLmnt = document.querySelector('.hour')
+const minuteLmnt = document.querySelector('.minute')
+const secondLmnt = document.querySelector('.second')
+const timeLmnt = document.querySelector('.time')
+const dateLmnt = document.querySelector('.date')
+const toggleLmnt = document.querySelector('.toggle')
