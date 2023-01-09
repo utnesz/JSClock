@@ -41,7 +41,7 @@ body {
   border-radius: 4px;
   padding: 12px 12px;
   position: absolute;
-  top: 100px;
+  top: 2%;
 }
 
 .toggle:focus {
@@ -69,6 +69,7 @@ body {
     height: 65px;
     width: 3px;
     transform-origin: bottom center;
+    transition: all 0.5s ease-in;
 }
 
 .needle.hour {
@@ -84,6 +85,7 @@ body {
     transform: translate(-50%,-100%) rotate(0deg);
     height: 100px;
     background-color: #e74c3c;
+    width: 1.5px;
 }
 
 .center-point {
